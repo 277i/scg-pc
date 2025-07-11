@@ -20,7 +20,7 @@ jobarr.forEach(function(item) {
                             ${item.jobname}
                         </div>
                         <div class="job-r">
-                       <a href="https://vip.51job.com/external/personal/personal_applyjob.aspx?ctmid=4963893&jobid=${item.jobid}">
+                       <a href="https://jobs.51job.com/all/${item.jobid}.html">
                              <img src="./img/td1.png"/>
                            </a>
                         </div>
