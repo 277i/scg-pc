@@ -5,7 +5,7 @@ let jobarr=[
     {jobid: 166350232, jobname: '经营经理(海口市)'},
     {jobid: 166350231, jobname: '经营经理(三亚市)'},
     {jobid: 166350230, jobname: '经营经理(深圳市)'},
-    {jobid: 166248391, jobname: '项目经济师(新疆地区）'},
+    {jobid: 166377253, jobname: '项目经济师(新疆地区）'},
     {jobid: 166246789, jobname: '经营经理(上海市)'},
     {jobid: 166235578, jobname: '文历保技术负责人(上海市)'},
     {jobid: 166247272, jobname: '注册水利造价工程师(上海市)'},
