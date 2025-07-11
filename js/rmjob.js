@@ -20,7 +20,7 @@ jobarr.forEach(function(item) {
                             ${item.jobname}
                         </div>
                         <div class="job-r">
-                          <a href="./job3.html?jobid=${item.jobid}">
+                       <a href="https://vip.51job.com/external/personal/personal_applyjob.aspx?ctmid=4963893&jobid=${item.jobid}">
                              <img src="./img/td1.png"/>
                            </a>
                         </div>
@@ -28,3 +28,4 @@ jobarr.forEach(function(item) {
           `
           $('.jobbox').append(string);
 });       
+//<a href="./job3.html?jobid=${item.jobid}"></a>
