@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 制作人信息 -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>上海建工集团2025届校园招聘</title>
+    <meta
+        content="上海建工2022职位招聘 前程无忧官方网站，提供最新 上海建工2022职位招聘职位，校园招聘信息， 信永中和（北京）国际投资管理有限公司面试技巧等。帮助您顺利踏入信永中和（北京）国际投资管理有限公司的大门，与众多信永中和（北京）国际投资管理有限公司精英们开启一段崭新的职业生涯。"
+        name="description">
+    <meta content="人才，招聘，简历，工作，求职，面试，应聘，跳槽，高薪，兼职，猎头，薪酬，薪资，培训，测评，人事" name="keywords">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=1200">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="all" />
+    <meta http-equiv="cache-control" content="no-siteapp">
+    <meta name="render" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <!--相对路径代码 -->
+    <link href="css/reset.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/in.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+
+
+<body ondragstart="return false">
+    <div class="all">
+        <div class="hand">
+            <div class="banner">
+                <img src="./img/banner.png" alt="">
+            </div>
+            <div class="top1 top">
+                <div class="ui">
+                    <span>
+                        <a href="./index.html">首页</a>
+                    </span>
+                    <span>
+                        <a href="./index1.html">集团简介</a>
+                    </span>
+                    <span>
+                        <a href="./index2.html">公司简介</a>
+                    </span>
+                    <span>
+                        <a href="./index3.html">人才发展</a>
+                    </span>
+                    <span>
+                        <a href="./index4.html">校园招聘</a>
+                    </span>
+                    <span class="liil">
+                        <a href="./index5.html">社会招聘</a>
+                    </span>
+                    <span>
+                        <a href="./index6.html">实习生招聘</a>
+                    </span>
+                    <span>
+                        <a href="./index7.html">公司官网</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="cen" id="title">
+            <br>
+            <div class="cen_c1">
+                <div class="xxrr">
+                    <div class="xqqx">
+                        <div class="a1">项目施工管理</div>
+                        <br>
+                        <div class="a2">
+                            <span>上海建工一建集团有限公司</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span>四川省</span>|
+                            <span>全职</span>|
+                            <span>本科</span>|
+                            <span>招若干人</span>|
+                            <span>2021-08-17发布</span>
+
+                        </div>
+                        <div class="xingqinga">
+                            1<br> 1
+                            <br> 1
+                            <br> 1
+                            <br> 1
+                            <br> 1
+                            <br>
+                        </div>
+                        <div>
+                            <span class="lji"><a href="">立即申请</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="fh">返回职位列表</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/dt.png" alt="" width="100%" class="dt">
+            <div class="banquan">
+                <!--版权信息区域-->
+                <div class="end">
+                    <img src="img/ok.png" width="2%" />&nbsp;未经51job.com同意，不得转载本网站之所有招聘信息及作品；无忧工作网版权所有&copy;1999-
+                    <script>
+                        document.write((new Date()).getFullYear())
+                    </script>
+                </div>
+                <!--版权信息区域end-->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/jquery-1.12.3.min.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="https://js.51jobcdn.com/in/js/2018/coapi/coapi.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+    var jobid = getUrlParam('jobid');
+
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = encodeURI(window.location.search).substr(1).match(reg); //匹配目标参数
+        if (r != null) return unescape(r[2]);
+        return null; //返回参数值
+    }
+
+    // 职位详情
+
+    var inner4 = ''
+    coapi.getJobDetail($(this).attr('jobid'), function (data) {
+        //取到数据之后的操作
+        console.log(data)
+        var resultbody = data.resultbody
+        inner4 += '<div class="xqqx">' +
+            '<div class="a1">' + resultbody.jobname + '</div>' +
+            '<br>' +
+            '<div class="a2">' +
+            '<span>' + resultbody.coname + '</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
+            '<span>' + resultbody.jobareaname + '</span>|' +
+            '<span>' + resultbody.term + '</span>|' +
+            '<span>' + resultbody.degreefrom + '</span>|' +
+            '<span>' + resultbody.jobnum + '</span>|' +
+            '<span>' + resultbody.issuedate.split('')[0] + '</span>' +
+            '</div>' +
+            '<div class="xingqinga">' + resultbody.jobinfo + '</div>' +
+            '<div>' +
+            '<span class="lji"><a href="https://jobs.51job.com/all/' + resultbody.jobid +
+            '.html">立即申请</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
+            '<span class="fh"><a style="color:rgb(207, 20, 27);" href="./index5.html#goBtn">返回职位列表</a></span>' +
+            ' </div>' +
+            '</div>'
+        $(".xxrr").html(inner4)
+
+        $('body,html').animate({
+            scrollTop: 500
+        }, 100);
+    });
+</script>
+
+</html>
